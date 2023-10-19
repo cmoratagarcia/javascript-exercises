@@ -29,8 +29,8 @@ const factorial = function (number) {
     result = 1;
   } else {
     for (let i = 1; i < number; i++) {
-      result = result * multiplier; //6
-      multiplier--; //1
+      result = result * multiplier;
+      multiplier--;
     }
   }
   return result;
